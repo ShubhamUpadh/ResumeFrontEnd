@@ -12,7 +12,7 @@ body{
 	margin-top: 0px;
 	width: 100%;
 	height:60vh;
-	background-image: url("D:\\HTML\\Resume\\desktop-1600x900.jpg");
+	background-image: url("desktop-1600x900.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -92,7 +92,20 @@ body{
 	
 }
 
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 75vh;
+}
 
+section:nth-child(2n){
+	background-color: rgb(200,200,200);
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
 
 /*About Section*/
 #my-photo{
